@@ -145,6 +145,26 @@ function updateResult(){
   }  
 }
 
-//#TODO: Restart the quiz
+//#TODO: Restart the quiz (Extentsion 2)
 var restart = document.getElementById("restart");
-restart.addEventListener
+restart.addEventListener("click", restartQuiz);
+
+function restartQuiz() {
+  questionCount = 0;
+  score = 0;
+  result.innerHTML = "";
+//do not forget to enable questions again
+}
+
+//#TODO: Disable buttons after answered (Extentsion 3)
+function disableQ1(){
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
+}
+
+q1a1.addEventListener("click", disableQ1);
+q1a2.addEventListener("click", disableQ1);
+q1a3.addEventListener("click", disableQ1);
+q1a4.addEventListener("click", disableQ1);
