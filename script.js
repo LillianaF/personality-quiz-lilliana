@@ -7,6 +7,8 @@ var middleChild = 0;
 var youngestChild = 0;
 var onlyChild = 0;
 
+//is there a way to randomize answers?
+
 //Take this quiz and find out what sibling order you are most like
 //Pick adjectives 
 //scenerios based on adjectives 
@@ -34,15 +36,15 @@ var onlyChild = 0;
 
 //4
 //Your boat crashes, leaving you stranded on an island. What do you do?
-//find food shelter and plan to get off island
-//sit and hope for help
-//sets a home and plans to live there
-//cry
+//Find food, shelter, and come up with a plan to get off the island
+//Sit and hope an airplane or boat finds you
+//Build a shelter and plan to live there
+//Give up on life and cry
 
 //5
 //You want to go to your friends house, but your parents will not let you. What do you do?
-//Listen's to what their parents say
-//Makes different plans but does not tell parents
+//Listen to what your parents say and stay home
+//Make different plans but do not tell your parents
 //Sneak out to friend's house
 //Invite your friend over to your house
 
@@ -51,21 +53,21 @@ var onlyChild = 0;
 //Immediately call for help
 //Try to fix it yourself and then call for help
 //Fix it yourself
-//Cry 
+//Sit in your car upset and cry
 
 //7
 //You are in a group project. What role do you take?
 //Takes charge of the entire project
-//Does all the work 
-//Does their work at the very last minute
-//Does their part, nothing more
+//Do all the work 
+//Do your work at the very last minute
+//Do you part, but nothing more
 
 //8
 //You get in a big fight with a family member. Who is it with?
-//Sibling(s)
-//No fight, you are trying to make peace
+//Your sibling(s)
+//No fight, you are the peacemaker
 //Anyone who will pick a fight
-//Parents
+//Your parents
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
