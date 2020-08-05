@@ -100,23 +100,39 @@ q8a4.addEventListener("click", onlyChild);
 function oldestChild(){
   oldestScore+=1;
   questionCount+=1;
-  alert("One point to oldest child")
+  if (questionCount >= 8) {
+    updateResult();
+  }
+  //alert("One point to oldest child")
 }
 
 function middleChild(){
   middleScore+=1;
   questionCount+=1;
+  if (questionCount >= 8) {
+    updateResult();
+  }
 }
 
 function youngestChild(){
   youngestScore+=1;
   questionCount+=1;
+  if (questionCount >= 8) {
+    updateResult();
+  }
 }
 
 function onlyChild(){
   onlyScore+=1;
   questionCount+=1;
+  if (questionCount >= 8) {
+    updateResult();
+  }
 }
 
 //#TODO: Calculate the results
+var result = document.getElementById("result");
 
+function updateResult(){
+  
+}
