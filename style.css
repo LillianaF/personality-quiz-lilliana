@@ -32,7 +32,7 @@ h2 {
 .question {
   display: flex;
   margin-top: 2em;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
 
 /*   
