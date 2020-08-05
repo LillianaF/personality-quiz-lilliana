@@ -8,7 +8,14 @@ var result3Score = 0;
 var result4Score = 0;
 
 
-
+//Take this quiz and find out what sibling order you are most like
+//Pick adjectives 
+//scenerios based on adjectives 
+//Your flight going home just got cancelled. What do you do?
+//Oldest-Immeadiately book the next flight
+//Middle-Wait around and hope for the best
+//Youngest-Stay on vacation longer
+//Only-Demand to speak with the head 
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
