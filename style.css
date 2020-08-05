@@ -1,9 +1,13 @@
 /* CSS files add styling rules to your content */
-
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-  background-color: #d8cdec
+  background-color: #d8cdec;
+  width: 100%;
 }
 
 h1 {
@@ -26,4 +30,13 @@ h2 {
   
 .answer-choice img {
   height: 10em;
+}
+
+nav {
+  background-color: #330067;
+  border-style: solid #330067;
+  padding: 20px;
+  margin: 0;
+  top: 0;
+  width: 100%;
 }
