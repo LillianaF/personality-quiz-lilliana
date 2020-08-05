@@ -28,10 +28,11 @@ h2 {
 .question {
   display: flex;
   margin-top: 2em;
-  justify-content: center;
+
 }
   
 .answer-choice img {
+  width: 200px;
   height: 10em;
   border-radius: 10px;
 }
