@@ -29,7 +29,7 @@ var onlyChild = 0;
 //You have an assignment due next week. When do you do it?
 //Do it right away
 //Do it gradually throughout the week
-//Do it last minute
+//Do it the night before it is due
 //Hire a tutor to do it for you
 
 //4
