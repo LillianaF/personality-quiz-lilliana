@@ -30,6 +30,7 @@ var onlyChild = 0;
 //does it right away
 //does it gradually throughout week
 //last minute
+//hire a tutor to do it for you
 
 //4
 //Your boat crashes, leaving you stranded on an island. What do you do?
@@ -39,10 +40,13 @@ var onlyChild = 0;
 //cry
 
 //5
-
+//You want to go to your friends house, but your parents will not let you. What do you do?
+//Listen's to what their parents say
+//Makes different plans but does not tell parents
+//Sneak out to friend's house
+//Invite your friend over to your house
 
 //6
-//hire a tutor to do it for you
 //Your car breaks down in the middle of the road. What do you do?
 //Immediately call for help
 //Try to fix it yourself and then call for help
@@ -56,7 +60,12 @@ var onlyChild = 0;
 //Does their work at the very last minute
 //Does their part, nothing more
 
-
+//8
+//You get in a big fight with a family member. Who is it with?
+//Sibling(s)
+//No fight, you are trying to make peace
+//Anyone who will pick a fight
+//Parents
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
