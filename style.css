@@ -70,6 +70,7 @@ button {
   width: 60%;
   background-color: #191970;
   border-radius: 10px;
+  padding: 0px 5px;
 }/*how to make the same space between buttons*/
 
 #restart {

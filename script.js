@@ -13,62 +13,6 @@ var onlyScore = 0;
 //Pick adjectives 
 //scenerios based on adjectives 
 
-//1
-//Your flight going home just got canceled. What do you do?
-//Oldest-Immediately book the next flight
-//Middle-Wait around and hope for the best
-//Youngest-Stay on vacation longer
-//Only-Demand to speak with the head of the airline company
-
-//2
-//You are planning a picnic with your friends. What do you do?
-//Oldest-Plan the location and bring food for everyone
-//Middle-Bring some snacks and hope no one is allergic to them
-//Youngest-Just bring yourself
-//Only-Just bring food for yourself
-
-//3
-//You have an assignment due next week. When do you do it?
-//Do it right away
-//Do it gradually throughout the week
-//Do it the night before it is due
-//Hire a tutor to do it for you
-
-//4
-//Your boat crashes, leaving you stranded on an island. What do you do?
-//Find food, shelter, and come up with a plan to get off the island
-//Sit and hope an airplane or boat finds you
-//Build a shelter and plan to live there
-//Give up on life and cry
-
-//5
-//You want to go to your friends house, but your parents will not let you. What do you do?
-//Listen to what your parents say and stay home
-//Make different plans but do not tell your parents
-//Sneak out to friend's house
-//Invite your friend over to your house
-
-//6
-//Your car breaks down in the middle of the road. What do you do?
-//Immediately call for help
-//Try to fix it yourself and then call for help
-//Fix it yourself
-//Sit in your car upset and cry
-
-//7
-//You are in a group project. What role do you take?
-//Takes charge of the entire project
-//Do all the work 
-//Do your work at the very last minute
-//Do you part, but nothing more
-
-//8
-//You get in a big fight with a family member. Who is it with?
-//Your sibling(s)
-//No fight, you are the peacemaker
-//Anyone who will pick a fight
-//Your parents
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -154,17 +98,25 @@ q8a4.addEventListener("click", onlyChild);
 
 //#TODO: Define quiz functions here
 function oldestChild(){
-  
+  oldestScore+=1;
+  questionCount+=1;
+  alert("One point to oldest child")
 }
 
 function middleChild(){
-  
+  middleScore+=1;
+  questionCount+=1;
 }
 
 function youngestChild(){
-  
+  youngestScore+=1;
+  questionCount+=1;
 }
 
 function onlyChild(){
-  
+  onlyScore+=1;
+  questionCount+=1;
 }
+
+//#TODO: Calculate the results
+
