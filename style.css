@@ -54,11 +54,11 @@ nav {
 }
 
 button {
-  color: ;
+  color: #A4E5E0;
   cursor: pointer;
   justify-content: space-between;
   width: 60%;
-  background-color: #330067;
+  background-color: #191970;
   border-radius: 10px;
 }/*how to make the same space between buttons*/
 
