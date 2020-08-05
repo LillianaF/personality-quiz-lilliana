@@ -3,20 +3,25 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: #d8cdec
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: #009698;
+  text-align: center;
 }
 
 h2 {
   margin-top: 2em; 
+  text-align: center;
+  color: #191970;
 }
 
 .question {
   display: flex;
   margin-top: 2em;
+  justify-content: center;
 }
   
 .answer-choice img {
