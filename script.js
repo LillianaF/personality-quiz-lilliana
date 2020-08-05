@@ -2,10 +2,7 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var oldestScore = 0;
-var middleScore = 0;
-var youngestScore = 0;
-var onlyScore = 0;
+var score = 0;
 
 //is there a way to randomize answers?
 
@@ -98,7 +95,7 @@ q8a4.addEventListener("click", onlyChild);
 
 //#TODO: Define quiz functions here
 function oldestChild(){
-  oldestScore+=1;
+  score+=10;
   questionCount+=1;
   if (questionCount >= 8) {
     updateResult();
@@ -107,7 +104,7 @@ function oldestChild(){
 }
 
 function middleChild(){
-  middleScore+=1;
+  score+=20;
   questionCount+=1;
   if (questionCount >= 8) {
     updateResult();
@@ -115,7 +112,7 @@ function middleChild(){
 }
 
 function youngestChild(){
-  youngestScore+=1;
+  score+=30;
   questionCount+=1;
   if (questionCount >= 8) {
     updateResult();
@@ -123,7 +120,7 @@ function youngestChild(){
 }
 
 function onlyChild(){
-  onlyScore+=1;
+  score+=40;
   questionCount+=1;
   if (questionCount >= 8) {
     updateResult();
@@ -134,7 +131,11 @@ function onlyChild(){
 var result = document.getElementById("result");
 
 function updateResult(){
-  
+  if (score >= 80 && score <= 159) {
+    result.innerHTML = "Oldest Sibling!";
+  } else if (score >= 160 && score<= 159) {
+    result.innerHTML = "Middle Sibling!";
+  } else if (score >=16)
   
   
   
