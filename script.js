@@ -2,10 +2,10 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var oldestChild = 0;
-var middleChild = 0;
-var youngestChild = 0;
-var onlyChild = 0;
+var oldestScore = 0;
+var middleScore = 0;
+var youngestScore = 0;
+var onlyScore = 0;
 
 //is there a way to randomize answers?
 
@@ -112,17 +112,59 @@ var q8a4 = document.getElementById("q8a4");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+q1a1.addEventListener("click", oldestChild);
+q1a2.addEventListener("click", middleChild);
+q1a3.addEventListener("click", youngestChild);
+q1a4.addEventListener("click", onlyChild);
 
+q2a1.addEventListener("click", oldestChild);
+q2a2.addEventListener("click", middleChild);
+q2a3.addEventListener("click", youngestChild);
+q2a4.addEventListener("click", onlyChild);
 
+q3a1.addEventListener("click", oldestChild);
+q3a2.addEventListener("click", middleChild);
+q3a3.addEventListener("click", youngestChild);
+q3a4.addEventListener("click", onlyChild);
 
+q4a1.addEventListener("click", oldestChild);
+q4a2.addEventListener("click", middleChild);
+q4a3.addEventListener("click", youngestChild);
+q4a4.addEventListener("click", onlyChild);
 
+q5a1.addEventListener("click", oldestChild);
+q5a2.addEventListener("click", middleChild);
+q5a3.addEventListener("click", youngestChild);
+q5a4.addEventListener("click", onlyChild);
 
+q6a1.addEventListener("click", oldestChild);
+q6a2.addEventListener("click", middleChild);
+q6a3.addEventListener("click", youngestChild);
+q6a4.addEventListener("click", onlyChild);
 
+q7a1.addEventListener("click", oldestChild);
+q7a2.addEventListener("click", middleChild);
+q7a3.addEventListener("click", youngestChild);
+q7a4.addEventListener("click", onlyChild);
+
+q8a1.addEventListener("click", oldestChild);
+q8a2.addEventListener("click", middleChild);
+q8a3.addEventListener("click", youngestChild);
+q8a4.addEventListener("click", onlyChild);
 
 //#TODO: Define quiz functions here
-function result1(){
+function oldestChild(){
   
+}
+
+function middleChild(){
   
+}
+
+function youngestChild(){
+  
+}
+
+function onlyChild(){
   
 }
