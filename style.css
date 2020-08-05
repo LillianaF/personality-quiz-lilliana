@@ -21,6 +21,7 @@ h1 {
 
 h2 {
   margin-top: 2em; 
+  margin-bottom: 1em;
   text-align: center;
   color: #191970;
 }
@@ -28,9 +29,15 @@ h2 {
 .question {
   display: flex;
   margin-top: 2em;
-
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
-  
+
+.answer-choice {
+  width: 200px;
+}
+
 .answer-choice img {
   width: 200px;
   height: 10em;
@@ -47,9 +54,12 @@ nav {
 }
 
 button {
+  color: ;
   cursor: pointer;
   justify-content: space-between;
   width: 60%;
+  background-color: #330067;
+  border-radius: 10px;
 }/*how to make the same space between buttons*/
 
 #restart {
