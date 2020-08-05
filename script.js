@@ -13,24 +13,24 @@ var onlyChild = 0;
 
 //1
 //Your flight going home just got canceled. What do you do?
-//Oldest-Immeadiately book the next flight
+//Oldest-Immediately book the next flight
 //Middle-Wait around and hope for the best
 //Youngest-Stay on vacation longer
 //Only-Demand to speak with the head of the airline company
 
 //2
-//You are planning a picnic for your friends. What do you bring?
-//Oldest-Plan the location and bring a whole meal
-//Middle-Bring some snacks and hope no one is alergic to them
-//Youngest-Just brings themselves
-//Only-Only brings food for themselves
+//You are planning a picnic with your friends. What do you do?
+//Oldest-Plan the location and bring food for everyone
+//Middle-Bring some snacks and hope no one is allergic to them
+//Youngest-Just bring yourself
+//Only-Just bring food for yourself
 
 //3
 //You have an assignment due next week. When do you do it?
-//does it right away
-//does it gradually throughout week
-//last minute
-//hire a tutor to do it for you
+//Do it right away
+//Do it gradually throughout the week
+//Do it last minute
+//Hire a tutor to do it for you
 
 //4
 //Your boat crashes, leaving you stranded on an island. What do you do?
