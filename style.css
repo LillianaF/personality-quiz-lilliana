@@ -9,8 +9,10 @@ body, html {
   background-color: #d8cdec;
   width: 100%;
   text-align: center;
-  min-width: 900px;
-} /*figure out why it is not centered*/
+  
+} /*
+min-width: 900px;
+figure out why it is not centered*/
 
 h1 {
   font-size: 36px;
@@ -47,10 +49,9 @@ h2 {
 nav {
   background-color: #330067;
   border-style: solid #330067;
-  padding: 20px;
-  margin: 0;
-  top: 0;
   width: 100%;
+  margin: auto;
+  top: 0;
 }
 
 button {
