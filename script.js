@@ -157,51 +157,38 @@ function restartQuiz() {
 }
 
 //#TODO: Disable buttons after answered (Extentsion 3)
-function cursor1() {
+function changeQ1(){
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
   q1a1.style.cursor = "default";
   q1a2.style.cursor = "default";
   q1a3.style.cursor = "default";
   q1a4.style.cursor = "default";
 }
 
-function cursor2() {
+q1a1.addEventListener("click", changeQ1);
+q1a2.addEventListener("click", changeQ1);
+q1a3.addEventListener("click", changeQ1);
+q1a4.addEventListener("click", changeQ1);
+
+function changeQ2(){
+  q2a1.disabled = true;
+  q2a2.disabled = true;
+  q2a3.disabled = true;
+  q2a4.disabled = true;
   q2a1.style.cursor = "default";
   q2a2.style.cursor = "default";
   q2a3.style.cursor = "default";
   q2a4.style.cursor = "default";
 }
 
-function disableQ1(){
-  q1a1.disabled = true;
-  q1a2.disabled = true;
-  q1a3.disabled = true;
-  q1a4.disabled = true;
-}
+q2a1.addEventListener("click", changeQ2);
+q2a2.addEventListener("click", changeQ2);
+q2a3.addEventListener("click", changeQ2);
+q2a4.addEventListener("click", changeQ2);
 
-q1a1.addEventListener("click", disableQ1);
-q1a1.addEventListener("click", cursor1);
-q1a2.addEventListener("click", disableQ1);
-q1a1.addEventListener("click", cursor1);
-q1a3.addEventListener("click", disableQ1);
-q1a1.addEventListener("click", cursor1);
-q1a4.addEventListener("click", disableQ1);
-q1a1.addEventListener("click", cursor1);
-
-function disableQ2(){
-  q2a1.disabled = true;
-  q2a2.disabled = true;
-  q2a3.disabled = true;
-  q2a4.disabled = true;
-}
-
-q2a1.addEventListener("click", disableQ2);
-q2a1.addEventListener("click", cursor2);
-q2a2.addEventListener("click", disableQ2);
-q2a1.addEventListener("click", cursor2);
-q2a3.addEventListener("click", disableQ2);
-q2a1.addEventListener("click", cursor2);
-q2a4.addEventListener("click", disableQ2);
-q2a1.addEventListener("click", cursor2);
 
 //change the opacity of all the others but the one choosen
 //organize the code better, combine disable and cursor into one function
