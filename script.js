@@ -109,6 +109,7 @@ function middleChild(){
   if (questionCount >= 8) {
     updateResult();
   }
+  //alert("One point to middle child")
 }
 
 function youngestChild(){
@@ -117,6 +118,7 @@ function youngestChild(){
   if (questionCount >= 8) {
     updateResult();
   }
+  //alert("One point to youngest child")
 }
 
 function onlyChild(){
@@ -125,18 +127,24 @@ function onlyChild(){
   if (questionCount >= 8) {
     updateResult();
   }
+  //alert("One point to only child")
 }
 
 //#TODO: Calculate the results
 var result = document.getElementById("result");
 
 function updateResult(){
-  if (score >= 80 && score <= 159) {
+  if (score >= 80 && score <= 139) {
     result.innerHTML = "Oldest Sibling!";
-  } else if (score >= 160 && score<= 159) {
+  } else if (score >= 140 && score <= 199) {
     result.innerHTML = "Middle Sibling!";
-  } else if (score >=16)
-  
-  
-  
+  } else if (score >= 200 && score <= 259) {
+    result.innerHTML = "Youngest Sibling!";
+  } else if (score >= 260 && score <=320) {
+    result.innerHTML = "No sibling! Only Child."
+  }  
 }
+
+//#TODO: Restart the quiz
+var restart = document.getElementById("restart");
+restart.addEventListener
