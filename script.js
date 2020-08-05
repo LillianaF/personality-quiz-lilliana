@@ -166,8 +166,12 @@ function changeQ1(){
   q1a2.style.cursor = "default";
   q1a3.style.cursor = "default";
   q1a4.style.cursor = "default";
-  q1a1.style.opacity = "50%"
+//  q1a2.style.opacity = "50%";
+//  q1a3.style.opacity = "50%";
+//  q1a4.style.opacity = "50%";
 }
+
+//maybe use an if statement in order to change the opacity
 
 q1a1.addEventListener("click", changeQ1);
 q1a2.addEventListener("click", changeQ1);
