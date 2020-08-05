@@ -166,6 +166,7 @@ function changeQ1(){
   q1a2.style.cursor = "default";
   q1a3.style.cursor = "default";
   q1a4.style.cursor = "default";
+  q1a1.style.opacity = "50%"
 }
 
 q1a1.addEventListener("click", changeQ1);
