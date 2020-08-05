@@ -70,7 +70,7 @@ nav {
 
 button {
   color: #37BEB0;
-  cursor: pointer;
+  cursor: pointer; /*default is the other one*/
   justify-content: space-between;
   width: 60%;
   background-color: #191970;

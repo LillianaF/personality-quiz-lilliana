@@ -157,14 +157,22 @@ function restartQuiz() {
 }
 
 //#TODO: Disable buttons after answered (Extentsion 3)
+function cursor() {
+  q1a1.style.cursor = "default";
+}
+
 function disableQ1(){
   q1a1.disabled = true;
   q1a2.disabled = true;
   q1a3.disabled = true;
   q1a4.disabled = true;
 }
+//q1a1.style.cursor = "default"; how to make this after pressing the button?
 
 q1a1.addEventListener("click", disableQ1);
+q1a1.addEventListener("click", cursor);
 q1a2.addEventListener("click", disableQ1);
 q1a3.addEventListener("click", disableQ1);
 q1a4.addEventListener("click", disableQ1);
+
+
