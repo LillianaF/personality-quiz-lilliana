@@ -33,6 +33,7 @@ h2 {
   
 .answer-choice img {
   height: 10em;
+  border-radius: 10px;
 }
 
 nav {
@@ -47,6 +48,7 @@ nav {
 button {
   cursor: pointer;
   justify-content: space-between;
+  width: 60%;
 }/*how to make the same space between buttons*/
 
 #restart {
