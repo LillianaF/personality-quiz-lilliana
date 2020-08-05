@@ -172,6 +172,9 @@ function changeQ1(){
 }
 
 //maybe use an if statement in order to change the opacity
+if (q1a1.clicked == true) {
+  alert("button was clicked");
+}
 
 q1a1.addEventListener("click", changeQ1);
 q1a2.addEventListener("click", changeQ1);
