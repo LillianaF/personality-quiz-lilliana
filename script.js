@@ -55,10 +55,12 @@ var q8a2 = document.getElementById("q8a2");
 var q8a3 = document.getElementById("q8a3");
 var q8a4 = document.getElementById("q8a4");
 
-var old = document.getElementsByClassName("old");
-var middle = document.getElementsByClassName("middle");
-var young = document.getElementsByClassName("young");
-var only = document.getElementsByClassName("only");
+var button = document.getElementsByClassName("button");
+
+//var old = document.getElementsByClassName("old");
+//var middle = document.getElementsByClassName("middle");
+//var young = document.getElementsByClassName("young");
+//var only = document.getElementsByClassName("only");
 
 //could i make a var with class for opacity
 
@@ -166,6 +168,7 @@ function restartQuiz() {
   score = 0;
   result.innerHTML = "";
   enableQuestions();//do not forget to enable questions again
+  button.reset();
 }
 
 //#TODO: Disable buttons after answered (Extentsion 3)
@@ -342,6 +345,7 @@ function enableQuestions() {
   q8a2.disabled = false;
   q8a3.disabled = false;
   q8a4.disabled = false;
+  
   //have to change the cursors back to normal, for the button i want pointer, that is what it is set to in css
   q1a1.style.opacity = "100%";
   q1a2.style.opacity = "100%";
