@@ -214,6 +214,86 @@ q3a2.addEventListener("click", changeQ3);
 q3a3.addEventListener("click", changeQ3);
 q3a4.addEventListener("click", changeQ3);
 
+function changeQ4(){
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+  q4a1.style.cursor = "default";
+  q4a2.style.cursor = "default";
+  q4a3.style.cursor = "default";
+  q4a4.style.cursor = "default";
+}
+
+q4a1.addEventListener("click", changeQ4);
+q4a2.addEventListener("click", changeQ4);
+q4a3.addEventListener("click", changeQ4);
+q4a4.addEventListener("click", changeQ4);
+
+function changeQ5(){
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+  q5a1.style.cursor = "default";
+  q5a2.style.cursor = "default";
+  q5a3.style.cursor = "default";
+  q5a4.style.cursor = "default";
+}
+
+q5a1.addEventListener("click", changeQ5);
+q5a2.addEventListener("click", changeQ5);
+q5a3.addEventListener("click", changeQ5);
+q5a4.addEventListener("click", changeQ5);
+
+function changeQ6(){
+  q6a1.disabled = true;
+  q6a2.disabled = true;
+  q6a3.disabled = true;
+  q6a4.disabled = true;
+  q6a1.style.cursor = "default";
+  q6a2.style.cursor = "default";
+  q6a3.style.cursor = "default";
+  q6a4.style.cursor = "default";
+}
+
+q6a1.addEventListener("click", changeQ6);
+q6a2.addEventListener("click", changeQ6);
+q6a3.addEventListener("click", changeQ6);
+q6a4.addEventListener("click", changeQ6);
+
+function changeQ7(){
+  q7a1.disabled = true;
+  q7a2.disabled = true;
+  q7a3.disabled = true;
+  q7a4.disabled = true;
+  q7a1.style.cursor = "default";
+  q7a2.style.cursor = "default";
+  q7a3.style.cursor = "default";
+  q7a4.style.cursor = "default";
+}
+
+q7a1.addEventListener("click", changeQ7);
+q7a2.addEventListener("click", changeQ7);
+q7a3.addEventListener("click", changeQ7);
+q7a4.addEventListener("click", changeQ7);
+
+function changeQ8(){
+  q8a1.disabled = true;
+  q8a2.disabled = true;
+  q8a3.disabled = true;
+  q8a4.disabled = true;
+  q8a1.style.cursor = "default";
+  q8a2.style.cursor = "default";
+  q8a3.style.cursor = "default";
+  q8a4.style.cursor = "default";
+}
+
+q8a1.addEventListener("click", changeQ8);
+q8a2.addEventListener("click", changeQ8);
+q8a3.addEventListener("click", changeQ8);
+q8a4.addEventListener("click", changeQ8);
+
 function enableQuestions() {
   q1a1.disabled = false;
   q1a2.disabled = false;
