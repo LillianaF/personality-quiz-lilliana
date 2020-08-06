@@ -336,7 +336,3 @@ function enableQuestions() {
 }
 
 
-//maybe change it to get by class for opacity
-//change the opacity of all the others but the one choosen
-//organize the code better, combine disable and cursor into one function
-
