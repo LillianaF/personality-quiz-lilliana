@@ -51,7 +51,8 @@ var q8a2 = document.getElementById("q8a2");
 var q8a3 = document.getElementById("q8a3");
 var q8a4 = document.getElementById("q8a4");
 
-
+//var img = document.getElementById("plane");
+//img.addEventListener("click", changeQ1);
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", oldestChild);
 q1a2.addEventListener("click", middleChild);
@@ -166,6 +167,8 @@ function changeQ1(){
   q1a2.style.cursor = "default";
   q1a3.style.cursor = "default";
   q1a4.style.cursor = "default";
+  q1a1.style.opacity = "50%";
+//img.style.opacity = "50%";
 //  q1a2.style.opacity = "50%";
 //  q1a3.style.opacity = "50%";
 //  q1a4.style.opacity = "50%";
