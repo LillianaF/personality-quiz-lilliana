@@ -172,9 +172,10 @@ function changeQ1(){
 }
 //maybe you just need to make sure it listens and the function does not matter
 //maybe use an if statement in order to change the opacity
-if (q1a1.clicked == true) {
+/*if (q1a1.clicked == true) {
   alert("button was clicked");
 }
+why doesn't my if statement work?*/
 
 q1a1.addEventListener("click", changeQ1);
 q1a2.addEventListener("click", changeQ1);
