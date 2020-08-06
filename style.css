@@ -67,7 +67,7 @@ nav {
   why does it not go all the way across*/
 }
 
-button {
+.button {
   color: #37BEB0;
   cursor: pointer; /*default is the other one*/
   justify-content: space-between;
