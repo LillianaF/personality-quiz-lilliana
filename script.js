@@ -56,6 +56,11 @@ var q8a3 = document.getElementById("q8a3");
 var q8a4 = document.getElementById("q8a4");
 
 var button = document.getElementsByClassName("button");
+var Q1 = document.getElementsByClassName("Q1");
+
+//Q1.addEventListener("click", function(){
+  //jump to another part in webpage
+//})
 
 //var old = document.getElementsByClassName("old");
 //var middle = document.getElementsByClassName("middle");
@@ -161,16 +166,18 @@ function updateResult(){
 
 //#TODO: Restart the quiz (Extentsion 2)
 var restart = document.getElementById("restart");
-restart.addEventListener("click", button.reset());
+restart.addEventListener("click", restartQuiz);
 
 function restartQuiz() {
   questionCount = 0;
   score = 0;
   result.innerHTML = "";
-  enableQuestions();//do not forget to enable questions again
+  enableQuestions();
+//button.reset();
+  //do not forget to enable questions again
 //button.addEventListener("click", button.reset());
  // button.reset(); //a way to reset back to original cursor settings?
-}
+}//have to change the cursors back to normal, for the button i want pointer, that is what it is set to in css
 
 //#TODO: Disable buttons after answered (Extentsion 3)
 function changeQ1(){
@@ -346,8 +353,6 @@ function enableQuestions() {
   q8a2.disabled = false;
   q8a3.disabled = false;
   q8a4.disabled = false;
-  
-  //have to change the cursors back to normal, for the button i want pointer, that is what it is set to in css
   q1a1.style.opacity = "100%";
   q1a2.style.opacity = "100%";
   q1a3.style.opacity = "100%";
