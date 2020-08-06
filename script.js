@@ -187,10 +187,10 @@ function changeQ1(){
 
 //maybe you just need to make sure it listens and the function does not matter
 //maybe use an if statement in order to change the opacity
-/*if (q1a1.clicked == true) {
-  alert("button was clicked");
-}
-why doesn't my if statement work?*/
+//if (q1a1.clicked === true) {
+//  alert("button was clicked");
+//}
+//why doesn't my if statement work?
 
 q1a1.addEventListener("click", changeQ1);
 q1a2.addEventListener("click", changeQ1);
@@ -342,7 +342,39 @@ function enableQuestions() {
   q8a2.disabled = false;
   q8a3.disabled = false;
   q8a4.disabled = false;
-  //have to change the cursors back to normal
+  //have to change the cursors back to normal, for the button i want pointer, that is what it is set to in css
+  q1a1.style.opacity = "100%";
+  q1a2.style.opacity = "100%";
+  q1a3.style.opacity = "100%";
+  q1a4.style.opacity = "100%";
+  q2a1.style.opacity = "100%";
+  q2a2.style.opacity = "100%";
+  q2a3.style.opacity = "100%";
+  q2a4.style.opacity = "100%";
+  q3a1.style.opacity = "100%";
+  q3a2.style.opacity = "100%";
+  q3a3.style.opacity = "100%";
+  q3a4.style.opacity = "100%";
+  q4a1.style.opacity = "100%";
+  q4a2.style.opacity = "100%";
+  q4a3.style.opacity = "100%";
+  q4a4.style.opacity = "100%";
+  q5a1.style.opacity = "100%";
+  q5a2.style.opacity = "100%";
+  q5a3.style.opacity = "100%";
+  q5a4.style.opacity = "100%";
+  q6a1.style.opacity = "100%";
+  q6a2.style.opacity = "100%";
+  q6a3.style.opacity = "100%";
+  q6a4.style.opacity = "100%";
+  q7a1.style.opacity = "100%";
+  q7a2.style.opacity = "100%";
+  q7a3.style.opacity = "100%";
+  q7a4.style.opacity = "100%";
+  q8a1.style.opacity = "100%";
+  q8a2.style.opacity = "100%";
+  q8a3.style.opacity = "100%";
+  q8a4.style.opacity = "100%";
 }
 
 //Change Opacity 
@@ -454,16 +486,78 @@ q5a2.addEventListener("click", function(){
   q5a4.style.opacity = "50%";
 });
 q5a3.addEventListener("click", function(){
-  q1a1.style.opacity = "50%";
-  q1a2.style.opacity = "50%";
-  q1a4.style.opacity = "50%";
+  q5a1.style.opacity = "50%";
+  q5a2.style.opacity = "50%";
+  q5a4.style.opacity = "50%";
 });
-q1a4.addEventListener("click", function(){
-  q1a1.style.opacity = "50%";
-  q1a2.style.opacity = "50%";
-  q1a3.style.opacity = "50%";
+q5a4.addEventListener("click", function(){
+  q5a1.style.opacity = "50%";
+  q5a2.style.opacity = "50%";
+  q5a3.style.opacity = "50%";
 });
 
+q6a1.addEventListener("click", function(){
+  q6a2.style.opacity = "50%";
+  q6a3.style.opacity = "50%";
+  q6a4.style.opacity = "50%";
+});
+q6a2.addEventListener("click", function(){
+  q6a1.style.opacity = "50%";
+  q6a3.style.opacity = "50%";
+  q6a4.style.opacity = "50%";
+});
+q6a3.addEventListener("click", function(){
+  q6a1.style.opacity = "50%";
+  q6a2.style.opacity = "50%";
+  q6a4.style.opacity = "50%";
+});
+q6a4.addEventListener("click", function(){
+  q6a1.style.opacity = "50%";
+  q6a2.style.opacity = "50%";
+  q6a3.style.opacity = "50%";
+});
+
+q7a1.addEventListener("click", function(){
+  q7a2.style.opacity = "50%";
+  q7a3.style.opacity = "50%";
+  q7a4.style.opacity = "50%";
+});
+q7a2.addEventListener("click", function(){
+  q7a1.style.opacity = "50%";
+  q7a3.style.opacity = "50%";
+  q7a4.style.opacity = "50%";
+});
+q7a3.addEventListener("click", function(){
+  q7a1.style.opacity = "50%";
+  q7a2.style.opacity = "50%";
+  q7a4.style.opacity = "50%";
+});
+q7a4.addEventListener("click", function(){
+  q7a1.style.opacity = "50%";
+  q7a2.style.opacity = "50%";
+  q7a3.style.opacity = "50%";
+});
+
+q8a1.addEventListener("click", function(){
+  q8a2.style.opacity = "50%";
+  q8a3.style.opacity = "50%";
+  q8a4.style.opacity = "50%";
+});
+q8a2.addEventListener("click", function(){
+  q8a1.style.opacity = "50%";
+  q8a3.style.opacity = "50%";
+  q8a4.style.opacity = "50%";
+});
+q8a3.addEventListener("click", function(){
+  q8a1.style.opacity = "50%";
+  q8a2.style.opacity = "50%";
+  q8a4.style.opacity = "50%";
+});
+q8a4.addEventListener("click", function(){
+  q8a1.style.opacity = "50%";
+  q8a2.style.opacity = "50%";
+  q8a3.style.opacity = "50%";
+});
 
 
 
