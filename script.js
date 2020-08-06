@@ -161,14 +161,15 @@ function updateResult(){
 
 //#TODO: Restart the quiz (Extentsion 2)
 var restart = document.getElementById("restart");
-restart.addEventListener("click", restartQuiz);
+restart.addEventListener("click", button.reset());
 
 function restartQuiz() {
   questionCount = 0;
   score = 0;
   result.innerHTML = "";
   enableQuestions();//do not forget to enable questions again
-  button.reset();
+//button.addEventListener("click", button.reset());
+ // button.reset(); //a way to reset back to original cursor settings?
 }
 
 //#TODO: Disable buttons after answered (Extentsion 3)
