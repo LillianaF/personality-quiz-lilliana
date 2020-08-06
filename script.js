@@ -358,3 +358,112 @@ function oldestOpacity() {
 //  q1a2.style.opacity = "50%";
 //  q1a3.style.opacity = "50%";
 //  q1a4.style.opacity = "50%";
+
+q1a1.addEventListener("click", function(){
+  q1a2.style.opacity = "50%";
+  q1a3.style.opacity = "50%";
+  q1a4.style.opacity = "50%";
+});
+q1a2.addEventListener("click", function(){
+  q1a1.style.opacity = "50%";
+  q1a3.style.opacity = "50%";
+  q1a4.style.opacity = "50%";
+});
+q1a3.addEventListener("click", function(){
+  q1a1.style.opacity = "50%";
+  q1a2.style.opacity = "50%";
+  q1a4.style.opacity = "50%";
+});
+q1a4.addEventListener("click", function(){
+  q1a1.style.opacity = "50%";
+  q1a2.style.opacity = "50%";
+  q1a3.style.opacity = "50%";
+});
+
+q2a1.addEventListener("click", function(){
+  q2a2.style.opacity = "50%";
+  q2a3.style.opacity = "50%";
+  q2a4.style.opacity = "50%";
+});
+q2a2.addEventListener("click", function(){
+  q2a1.style.opacity = "50%";
+  q2a3.style.opacity = "50%";
+  q2a4.style.opacity = "50%";
+});
+q2a3.addEventListener("click", function(){
+  q2a1.style.opacity = "50%";
+  q2a2.style.opacity = "50%";
+  q2a4.style.opacity = "50%";
+});
+q2a4.addEventListener("click", function(){
+  q2a1.style.opacity = "50%";
+  q2a2.style.opacity = "50%";
+  q2a3.style.opacity = "50%";
+});
+
+q3a1.addEventListener("click", function(){
+  q3a2.style.opacity = "50%";
+  q3a3.style.opacity = "50%";
+  q3a4.style.opacity = "50%";
+});
+q3a2.addEventListener("click", function(){
+  q3a1.style.opacity = "50%";
+  q3a3.style.opacity = "50%";
+  q3a4.style.opacity = "50%";
+});
+q3a3.addEventListener("click", function(){
+  q3a1.style.opacity = "50%";
+  q3a2.style.opacity = "50%";
+  q3a4.style.opacity = "50%";
+});
+q3a4.addEventListener("click", function(){
+  q3a1.style.opacity = "50%";
+  q3a2.style.opacity = "50%";
+  q3a3.style.opacity = "50%";
+});
+
+q4a1.addEventListener("click", function(){
+  q4a2.style.opacity = "50%";
+  q4a3.style.opacity = "50%";
+  q4a4.style.opacity = "50%";
+});
+q4a2.addEventListener("click", function(){
+  q4a1.style.opacity = "50%";
+  q4a3.style.opacity = "50%";
+  q4a4.style.opacity = "50%";
+});
+q4a3.addEventListener("click", function(){
+  q4a1.style.opacity = "50%";
+  q4a2.style.opacity = "50%";
+  q4a4.style.opacity = "50%";
+});
+q4a4.addEventListener("click", function(){
+  q4a1.style.opacity = "50%";
+  q4a2.style.opacity = "50%";
+  q4a3.style.opacity = "50%";
+});
+
+q5a1.addEventListener("click", function(){
+  q5a2.style.opacity = "50%";
+  q5a3.style.opacity = "50%";
+  q5a4.style.opacity = "50%";
+});
+q5a2.addEventListener("click", function(){
+  q5a1.style.opacity = "50%";
+  q5a3.style.opacity = "50%";
+  q5a4.style.opacity = "50%";
+});
+q5a3.addEventListener("click", function(){
+  q1a1.style.opacity = "50%";
+  q1a2.style.opacity = "50%";
+  q1a4.style.opacity = "50%";
+});
+q1a4.addEventListener("click", function(){
+  q1a1.style.opacity = "50%";
+  q1a2.style.opacity = "50%";
+  q1a3.style.opacity = "50%";
+});
+
+
+
+
