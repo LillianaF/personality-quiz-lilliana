@@ -173,7 +173,7 @@ function restartQuiz() {
   score = 0;
   result.innerHTML = "";
   enableQuestions();
-  button.reset();
+  button.reset(); //this is a class 
   //i wwant to reset to default original css 
   //do not forget to enable questions again
 //button.addEventListener("click", button.reset());
