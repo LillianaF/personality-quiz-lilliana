@@ -5,8 +5,11 @@ var questionCount = 0;
 var score = 0;
 
 //is there a way to randomize answers?
-//is there a way to grab all buttons by class by question and then do the jump down thing
+//is there a way to grab all buttons by class by question and then link to other parts in the webpage
 
+// i could do onclick for each category (oldest, youngest, etc.)
+
+//if i had images as a click i would have to disable both the image and the button beneath
 //Take this quiz and find out what sibling order you are most like
 //Pick adjectives 
 //scenerios based on adjectives 
@@ -51,6 +54,13 @@ var q8a1 = document.getElementById("q8a1");
 var q8a2 = document.getElementById("q8a2");
 var q8a3 = document.getElementById("q8a3");
 var q8a4 = document.getElementById("q8a4");
+
+var old = document.getElementsByClassName("old");
+var middle = document.getElementsByClassName("middle");
+var young = document.getElementsByClassName("young");
+var only = document.getElementsByClassName("only");
+
+//could i make a var with class for opacity
 
 //var img = document.getElementById("plane");
 //img.addEventListener("click", changeQ1);
@@ -335,4 +345,15 @@ function enableQuestions() {
   //have to change the cursors back to normal
 }
 
+//Change Opacity 
+function oldestOpacity() {
+  middle.style.opacity = "50%";
+  young.style.opacity = "50%";
+  only.style.opacity = "50%";
+}
 
+//q1a1.style.opacity = "50%";
+//img.style.opacity = "50%";
+//  q1a2.style.opacity = "50%";
+//  q1a3.style.opacity = "50%";
+//  q1a4.style.opacity = "50%";
