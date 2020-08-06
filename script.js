@@ -173,7 +173,7 @@ function restartQuiz() {
   score = 0;
   result.innerHTML = "";
   enableQuestions();
-  button.reset(); //this is a class 
+//button.reset(); //this is a class 
   //i wwant to reset to default original css 
   //do not forget to enable questions again
 //button.addEventListener("click", button.reset());
@@ -386,6 +386,39 @@ function enableQuestions() {
   q8a2.style.opacity = "100%";
   q8a3.style.opacity = "100%";
   q8a4.style.opacity = "100%";
+
+  q1a1.style.cursor = "pointer";
+  q1a2.style.cursor = "pointer";
+  q1a3.style.cursor = "pointer";
+  q1a4.style.cursor = "pointer";
+  q2a1.style.cursor = "pointer";
+  q2a2.style.cursor = "pointer";
+  q2a3.style.cursor = "pointer";
+  q2a4.style.cursor = "pointer";
+  q3a1.style.cursor = "pointer";
+  q3a2.style.cursor = "pointer";
+  q3a3.style.cursor = "pointer";
+  q3a4.style.cursor = "pointer";
+  q4a1.style.cursor = "pointer";
+  q4a2.style.cursor = "pointer";
+  q4a3.style.cursor = "pointer";
+  q4a4.style.cursor = "pointer";
+  q5a1.style.cursor = "pointer";
+  q5a2.style.cursor = "pointer";
+  q5a3.style.cursor = "pointer";
+  q5a4.style.cursor = "pointer";
+  q6a1.style.cursor = "pointer";
+  q6a2.style.cursor = "pointer";
+  q6a3.style.cursor = "pointer";
+  q6a4.style.cursor = "pointer";
+  q7a1.style.cursor = "pointer";
+  q7a2.style.cursor = "pointer";
+  q7a3.style.cursor = "pointer";
+  q7a4.style.cursor = "pointer";
+  q8a1.style.cursor = "pointer";
+  q8a2.style.cursor = "pointer";
+  q8a3.style.cursor = "pointer";
+  q8a4.style.cursor = "pointer";
 }
 
 //Change Opacity 
