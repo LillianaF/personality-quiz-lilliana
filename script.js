@@ -153,7 +153,7 @@ function restartQuiz() {
   questionCount = 0;
   score = 0;
   result.innerHTML = "";
-//do not forget to enable questions again
+  enableQuestions();//do not forget to enable questions again
 }
 
 //#TODO: Disable buttons after answered (Extentsion 3)
@@ -198,7 +198,59 @@ q2a2.addEventListener("click", changeQ2);
 q2a3.addEventListener("click", changeQ2);
 q2a4.addEventListener("click", changeQ2);
 
+function changeQ3(){
+  q3a1.disabled = true;
+  q3a2.disabled = true;
+  q3a3.disabled = true;
+  q3a4.disabled = true;
+  q3a1.style.cursor = "default";
+  q3a2.style.cursor = "default";
+  q3a3.style.cursor = "default";
+  q3a4.style.cursor = "default";
+}
 
+q3a1.addEventListener("click", changeQ3);
+q3a2.addEventListener("click", changeQ3);
+q3a3.addEventListener("click", changeQ3);
+q3a4.addEventListener("click", changeQ3);
+
+function enableQuestions() {
+  q1a1.disabled = false;
+  q1a2.disabled = false;
+  q1a3.disabled = false;
+  q1a4.disabled = false;
+  q2a1.disabled = false;
+  q2a2.disabled = false;
+  q2a3.disabled = false;
+  q2a4.disabled = false;
+  q3a1.disabled = false;
+  q3a2.disabled = false;
+  q3a3.disabled = false;
+  q3a4.disabled = false;
+  q4a1.disabled = false;
+  q4a2.disabled = false;
+  q4a3.disabled = false;
+  q4a4.disabled = false;
+  q5a1.disabled = false;
+  q5a2.disabled = false;
+  q5a3.disabled = false;
+  q5a4.disabled = false;
+  q6a1.disabled = false;
+  q6a2.disabled = false;
+  q6a3.disabled = false;
+  q6a4.disabled = false;
+  q7a1.disabled = false;
+  q7a2.disabled = false;
+  q7a3.disabled = false;
+  q7a4.disabled = false;
+  q8a1.disabled = false;
+  q8a2.disabled = false;
+  q8a3.disabled = false;
+  q8a4.disabled = false;
+}
+
+
+//maybe change it to get by class for opacity
 //change the opacity of all the others but the one choosen
 //organize the code better, combine disable and cursor into one function
 
