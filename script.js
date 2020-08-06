@@ -346,11 +346,12 @@ function enableQuestions() {
 }
 
 //Change Opacity 
+/*
 function oldestOpacity() {
   middle.style.opacity = "50%";
   young.style.opacity = "50%";
   only.style.opacity = "50%";
-}
+}*/
 
 //q1a1.style.opacity = "50%";
 //img.style.opacity = "50%";
