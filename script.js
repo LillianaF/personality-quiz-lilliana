@@ -3,7 +3,7 @@
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
 var score = 0;
-
+//alt for photos and embed project into my webpage
 //is there a way to randomize answers?
 //is there a way to grab all buttons by class by question and then link to other parts in the webpage
 
