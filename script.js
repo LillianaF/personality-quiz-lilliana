@@ -5,6 +5,7 @@ var questionCount = 0;
 var score = 0;
 
 //is there a way to randomize answers?
+//is there a way to grab all buttons by class by question and then do the jump down thing
 
 //Take this quiz and find out what sibling order you are most like
 //Pick adjectives 
@@ -331,6 +332,7 @@ function enableQuestions() {
   q8a2.disabled = false;
   q8a3.disabled = false;
   q8a4.disabled = false;
+  //have to change the cursors back to normal
 }
 
 
